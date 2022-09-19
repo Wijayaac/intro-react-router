@@ -1,0 +1,11 @@
+.item {
+    width: 100%;
+    box-shadow: 0px 0px 0px 2px var(--soft-pink) inset;
+    padding: .63rem;
+    transition: box-shadow 400ms ease;
+    border-radius: 12px;
+}
+
+.item:hover {
+    box-shadow: 0px 0px 0px 3px var(--pink) inset;
+}
